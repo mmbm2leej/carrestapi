@@ -1,0 +1,16 @@
+{
+  "name": "cardb",
+  "version": "1.0.0",
+  "description": "Contains car data for now just ford, and toyota",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dbservermock": "json-server --watch cardatastore.json",
+    "routeit": "json-server cardatastore.json --routes routes.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
